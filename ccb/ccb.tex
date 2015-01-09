@@ -1,0 +1,92 @@
+\documentclass[]{article}
+
+\usepackage{hyperref}
+
+%opening
+\title{Community Control Board\footnote{Based on technical committee section from Debian project's constitution v1.4 (\url{https://www.debian.org/devel/constitution\#item-6})}}
+\author{Jorge Avarias et al.}
+
+\begin{document}
+
+\maketitle
+
+\section{Powers}
+\begin{enumerate}
+
+\item Decide on any matter of technical policy.
+
+    This includes the contents of the technical policy manuals, developers' reference material, 
+    and workshop materials.
+
+\item Decide any technical matter where Developers' jurisdictions overlap.
+
+    In cases where Developers need to implement compatible technical policies or stances (for example, if they disagree about the priorities of conflicting modules, or about which module is responsible for a bug that both maintainers agree is a bug, or about who should be the maintainer for a module) the control board may decide the matter.
+
+\item Make a decision when asked to do so.
+
+    Any person or body may delegate a decision of their own to the Control Board, or seek advice from it.
+
+\item Overrule a Developer (requires absolute majority).
+
+    The Control Board may ask a Developer to take a particular technical course of action even if the Developer does not wish to; this requires absolute majority. For example, the Board may determine that a complaint made by the submitter of a bug is justified and that the submitter's proposed solution should be implemented.
+
+\item Offer advice.
+
+    The Control Board may make formal announcements about its views on any matter. Individual members may of course make informal statements about their views and about the likely views of the board.
+
+\item Together with the ACB, appoint new members to itself or remove existing members. (See \ref{sec:composition}.)
+
+\item Appoint the Chairperson of the Control Board.
+
+    The Chairperson is elected by the Board from its members. All members of the board are automatically nominated. The members may vote by public acclamation for any fellow board member, including themselves; there is no default option. The vote finishes when all the members have voted.
+
+\end{enumerate}
+
+\section{Composition}
+\label{sec:composition}
+
+\begin{enumerate}
+\item The Control Board should usually have at least 5 members.
+
+\item When there are fewer than 5 members the Control Board may recommend new member(s) to the ACB, who may choose (individually) to appoint them or not.
+
+\item When there have been 3 members or fewer for at least one week the ACB may appoint new member(s) until the number of members reaches 5, at intervals of at least one week per appointment.
+
+\item If the Control Board and the ACB agree they may remove or replace an existing member of the Control Board.
+
+\end{enumerate}
+
+\section{Procedure}
+\begin{itemize}
+
+\item The Control Board uses the Standard Resolution Procedure.
+
+    A draft resolution or amendment may be proposed by any member of the Control Board. There is no minimum discussion period; the voting period lasts for up to one week, or until the outcome is no longer in doubt. Members may change their votes. There is a quorum of two.
+
+\item Details regarding voting
+
+    The Chairman has a casting vote. When the Control Board votes whether to override a Developer who also happens to be a member of the Board, that member may not vote (unless they are the Chairman, in which case they may use only their casting vote).
+
+\item Public discussion and decision-making.
+
+    Discussion, draft resolutions and amendments, and votes by members of the board, are made public.
+
+\item Confidentiality of appointments.
+
+    The Control Board may hold confidential discussions via private email or a private mailing list or other means to discuss appointments to the Board. However, votes on appointments must be public.
+
+\item No detailed design work.
+
+    The Control Board does not engage in design of new proposals and policies. Such design work should be carried out by individuals privately or together and discussed in the tickets created to follow-up the progress of such matter.
+
+    The Control Board restricts itself to choosing from or adopting compromises between solutions and decisions which have been proposed and reasonably thoroughly discussed elsewhere.
+
+    Individual members of the control board may of course participate on their own behalf in any aspect of design and policy work.
+
+\item Control Board makes decisions only as last resort.
+
+    The Control Board does not make a technical decision until efforts to resolve it via consensus have been tried and failed, unless it has been asked to make a decision by the person or body who would normally be responsible for it.
+    
+\end{itemize}
+
+\end{document}
